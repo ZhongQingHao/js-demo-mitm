@@ -1,0 +1,5 @@
+[Script]
+http-response ^https?:\/\/.*\/user\/info requires-body=1 max-size=0, script-path=https://raw.githubusercontent.com/ZhongQingHao/js-demo-mitm/refs/heads/main/mokex-vote-enhance.js, tag=Mokex Vote Enhance
+
+[MITM]
+hostname = *.example.com
